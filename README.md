@@ -13,3 +13,8 @@ This project demonstrates a simple serverless REST API built using AWS services.
 - Deployed using API Gateway with automatic deployment
 
 ## API Endpoint
+GET /hello
+
+Example:
+https://581ia3uupd.execute-api.us-east-1.amazonaws.com/hello
+
