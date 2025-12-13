@@ -36,18 +36,14 @@ This project demonstrates a simple serverless REST API built using AWS services.
 
 ## Screenshots
 
-### Lambda Function Test (Python)
-Execution réussie de la fonction Lambda retournant une réponse JSON.
+### Lambda Function (Python)
+Test execution of the AWS Lambda function returning a JSON response.
 ![Lambda Function Test](screenshots/lambda-test.png)
 
 ### API Gateway Route
-Route GET `/hello` configurée et intégrée avec AWS Lambda.
+API Gateway route configuration linking the GET /hello endpoint to the Lambda function.
 ![API Gateway Route](screenshots/api-gateway-route.png)
 
-### API Gateway Stage
-Stage `$default` avec auto-deployment activé.
-![API Gateway Stage](screenshots/api-gateway-stage.png)
-
 ### API Response in Browser
-Test de l’API depuis le navigateur confirmant la réponse JSON.
+Test of the API from the browser confirming the JSON response.
 ![API Response in Browser](screenshots/browser-test.png)
