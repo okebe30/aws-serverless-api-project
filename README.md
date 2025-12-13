@@ -41,18 +41,5 @@ This project demonstrates a simple serverless REST API built using AWS services.
 - GET route returning JSON response
 - Automatic deployment using API Gateway
 
-## Screenshots
-
-### Lambda Function Test
-![Lambda Test](screenshots/lambda-test.png)
-
-### API Gateway Route
-![API Gateway Route](screenshots/api-gateway-route.png)
-
-### API Gateway Stage
-![API Gateway Stage](screenshots/api-gateway-stage.png)
-
-### Browser Test
-![Browser Test](screenshots/browser-test.png)
 
 
