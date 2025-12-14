@@ -7,25 +7,20 @@ It showcases how to build, deploy, and validate a backend API without managing s
 
 ## Overview
 
-The API uses **AWS Lambda** for backend logic and **Amazon API Gateway (HTTP API)** to expose a public endpoint.  
-This architecture provides scalability, security, and cost efficiency while minimizing operational overhead.
+The API uses **AWS Lambda** for backend logic and **Amazon API Gateway (HTTP API)** to expose an endpoint.  
+This architecture is scalable, cost-efficient, and follows cloud best practices.
 
 ---
 
 ## Architecture
 
-- **AWS Lambda (Python)**  
-  Handles request processing and returns JSON responses.
-
-- **Amazon API Gateway (HTTP API)**  
-  Routes HTTP requests to the Lambda function.
-
-- **IAM Role**  
-  Grants secure execution permissions to Lambda.
+- **AWS Lambda (Python)** — Backend compute
+- **Amazon API Gateway (HTTP API)** — Request routing
+- **IAM Role** — Secure execution permissions
 
 ---
 
-## Key Features
+## Features
 
 - Fully serverless architecture (no server management)
 - REST API with a GET endpoint
@@ -38,14 +33,19 @@ This architecture provides scalability, security, and cost efficiency while mini
 
 ## API Endpoint
 
-**GET /hello**
+**GET `/hello`**
 
 ### Sample Response
+
 ```json
 {
   "message": "Serverless API is working!",
   "status": "success"
 }
+> **Note:**  
+> The live AWS endpoint was created during development and may no longer be active.  
+> The screenshots below confirm successful deployment and execution.
+
 ---
 
 ## Screenshots
@@ -68,16 +68,3 @@ HTTP API route configured to integrate API Gateway with the Lambda function.
 Validation of the API response directly from a web browser.
 
 ![API Response in Browser](screenshots/browser-test.png)
-
----
-
-## Note
-The live AWS endpoint was created during development and may no longer be active.  
-The screenshots above confirm successful deployment and execution.
-
----
-
-## Author
-
-**Oumar Kebe**  
-Cloud Engineer
