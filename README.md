@@ -35,14 +35,7 @@ This architecture is scalable, cost-efficient, and follows cloud best practices.
 
 **GET `/hello`**
 
-### Sample Response
 
-```json
-{
-  "message": "Serverless API is working!",
-  "status": "success"
-}
----
 
 ## Screenshots
 
