@@ -42,10 +42,6 @@ This architecture is scalable, cost-efficient, and follows cloud best practices.
   "message": "Serverless API is working!",
   "status": "success"
 }
-> **Note:**  
-> The live AWS endpoint was created during development and may no longer be active.  
-> The screenshots below confirm successful deployment and execution.
-
 ---
 
 ## Screenshots
@@ -58,7 +54,7 @@ Successful execution of the AWS Lambda function returning a JSON response.
 ---
 
 ### API Gateway Route
-HTTP API route configured to integrate API Gateway with the Lambda function.
+HTTP API route configured to integrate Amazon API Gateway with the Lambda function.
 
 ![API Gateway Route](screenshots/api-gateway-route.png)
 
@@ -68,3 +64,9 @@ HTTP API route configured to integrate API Gateway with the Lambda function.
 Validation of the API response directly from a web browser.
 
 ![API Response in Browser](screenshots/browser-test.png)
+
+---
+
+> **Note:**  
+> The live AWS endpoint was created during development and may no longer be active.  
+> The screenshots above confirm successful deployment and execution.
