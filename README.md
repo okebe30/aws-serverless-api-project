@@ -30,12 +30,11 @@ This architecture is scalable, cost-efficient, and follows cloud best practices.
 - Clear separation of compute, routing, and security
 
 ---
-
 ## API Endpoint
 
-**GET `/hello`**
+**GET /hello**
 
-
+---
 
 ## Screenshots
 
@@ -63,3 +62,4 @@ Validation of the API response directly from a web browser.
 > **Note:**  
 > The live AWS endpoint was created during development and may no longer be active.  
 > The screenshots above confirm successful deployment and execution.
+
