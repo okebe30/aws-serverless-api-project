@@ -46,3 +46,38 @@ This architecture provides scalability, security, and cost efficiency while mini
   "message": "Serverless API is working!",
   "status": "success"
 }
+---
+
+## Screenshots
+
+### Lambda Function Test
+Successful execution of the AWS Lambda function returning a JSON response.
+
+![Lambda Function Test](screenshots/lambda-test.png)
+
+---
+
+### API Gateway Route
+HTTP API route configured to integrate API Gateway with the Lambda function.
+
+![API Gateway Route](screenshots/api-gateway-route.png)
+
+---
+
+### API Response in Browser
+Validation of the API response directly from a web browser.
+
+![API Response in Browser](screenshots/browser-test.png)
+
+---
+
+## Note
+The live AWS endpoint was created during development and may no longer be active.  
+The screenshots above confirm successful deployment and execution.
+
+---
+
+## Author
+
+**Oumar Kebe**  
+Cloud Engineer
