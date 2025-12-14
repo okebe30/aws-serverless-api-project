@@ -1,31 +1,27 @@
 # AWS Serverless API Project
 
 This project demonstrates the design and implementation of a **serverless REST API** using AWS managed services.  
-It showcases how to build, deploy, and validate a backend API **without managing servers**, following cloud best practices.
+It showcases how to build, deploy, and validate a backend API without managing servers.
 
 ---
 
 ## Overview
 
-The API is implemented using **AWS Lambda** for backend logic and **Amazon API Gateway (HTTP API)** to expose a public endpoint.  
-This architecture provides scalability, low operational overhead, and cost efficiency.
-
-The project is designed as a **portfolio-ready example** of serverless backend development on AWS.
+The API uses **AWS Lambda** for backend logic and **Amazon API Gateway (HTTP API)** to expose a public endpoint.  
+This architecture provides scalability, security, and cost efficiency while minimizing operational overhead.
 
 ---
 
 ## Architecture
 
-The solution is composed of the following AWS services:
-
 - **AWS Lambda (Python)**  
-  Executes backend logic and returns JSON responses.
+  Handles request processing and returns JSON responses.
 
 - **Amazon API Gateway (HTTP API)**  
-  Exposes the REST endpoint and routes requests to Lambda.
+  Routes HTTP requests to the Lambda function.
 
 - **IAM Role**  
-  Provides secure execution permissions for the Lambda function.
+  Grants secure execution permissions to Lambda.
 
 ---
 
@@ -48,18 +44,5 @@ The solution is composed of the following AWS services:
 ```json
 {
   "message": "Serverless API is working!",
----
-
-## Screenshots
-
-### Lambda Function Test
-![Lambda Function Test](screenshots/lambda-test.png)
-
-### API Gateway Route
-![API Gateway Route](screenshots/api-gateway-route.png)
-
-### API Response in Browser
-![API Response in Browser](screenshots/browser-test.png)
-
   "status": "success"
 }
