@@ -48,5 +48,18 @@ The solution is composed of the following AWS services:
 ```json
 {
   "message": "Serverless API is working!",
+---
+
+## Screenshots
+
+### Lambda Function Test
+![Lambda Function Test](screenshots/lambda-test.png)
+
+### API Gateway Route
+![API Gateway Route](screenshots/api-gateway-route.png)
+
+### API Response in Browser
+![API Response in Browser](screenshots/browser-test.png)
+
   "status": "success"
 }
